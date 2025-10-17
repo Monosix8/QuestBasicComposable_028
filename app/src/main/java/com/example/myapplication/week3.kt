@@ -132,3 +132,5 @@ fun LatihanLetakBoxColumnRow(modifier: Modifier) {
                 }
             }
         }
+        Spacer(modifier = Modifier.height(height = 10.dp))
+
