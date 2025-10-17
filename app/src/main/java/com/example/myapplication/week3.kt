@@ -102,3 +102,14 @@ fun LatihanLetakRowColumn(modifier: Modifier) {
     }
 }
 
+@Composable
+fun LatihanLetakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.Rosblokk)
+    Column {
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
