@@ -71,3 +71,13 @@ fun LatihanLetakColumnRow(modifier: Modifier) {
             Text(text = "Komponen3Baris1")
         }
 
+        // Baris 2
+        Row(modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly) {
+            Text(text = "Komponen1Baris2")
+            Text(text = "Komponen2Baris2")
+            Text(text = "Komponen3Baris2")
+        }
+    }
+}
+
